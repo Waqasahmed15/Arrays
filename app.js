@@ -1,3 +1,4 @@
+document.write("<h1>array assigment<h1/>");
 //Q1:Declare an empty array using JS literal notation to store
 //student names in future.
 var students = ["", "", "", "", "", "", "", ""];
@@ -41,11 +42,11 @@ another array to store score of these three students.
 Assume that total marks are 500 for each student, display
 the scores & percentages of students like:*/
 
-let students = ["hammad", "asad", "khurram"];
+let studentsName = ["hammad", "asad", "khurram"];
 let score = [320, 230, 480];
 document.write(
   "Score of " +
-    students[0] +
+    studentsName[0] +
     " is " +
     score[0] +
     " Percentage: " +
@@ -55,7 +56,7 @@ document.write(
 );
 document.write(
   "Score of " +
-    students[1] +
+    studentsName[1] +
     " is " +
     score[1] +
     " Percentage: " +
@@ -65,7 +66,7 @@ document.write(
 );
 document.write(
   "Score of " +
-    students[2] +
+    studentsName[2] +
     " is " +
     score[2] +
     " Percentage: " +
