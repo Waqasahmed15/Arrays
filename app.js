@@ -4,8 +4,8 @@ var students = ["", "", "", "", "", "", "", ""];
 
 //Q2:Declare an empty array using JS object notation to store
 //student names in future.
-var students = {};
-alert(students[0]);
+var studentDeta = {};
+alert(studentDeta[0]);
 
 //Q3: Declare and initialize a strings array.
 const computer = ["dell", "hp", "lenovo", "Xeon"];
